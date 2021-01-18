@@ -61,14 +61,18 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
-        if (err) throw err;
-        console.log('Succes! Your ReadMe File Saved.')
+        err ? console.error(error) : console.log('Succes! Your ReadMe File Generated.')
     })
 }
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions)
+        .then((data) => fs.writeFile('Text.md', generateMarkdown(data), (err) => {
+            if (err) throw err;
+            console.log('File Saved!');
+        }))
+        .catch(err => console.log(err));
 }
 
 // function call to initialize program
