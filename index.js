@@ -2,6 +2,9 @@ const fs = require('fs')
 const inquirer = require('inquirer')
 const generateMarkdown = require('./generateMarkdown.js')
 
+// const mit = "[![MIT License](https://img.shields.io/npm/l/mi?style=plastic)](https://opensource.org/licenses/MIT)"
+
+
 // array of questions for user
 const questions = [
     {
@@ -12,12 +15,12 @@ const questions = [
     {
         type: 'input',
         name: 'link',
-        message: 'Add a link to your project webpage',
+        message: 'Add a link to your project webpage.',
     },
     {
         type: 'input',
         name: 'description',
-        message: 'write a brief description about your project',
+        message: 'Write a brief description about your project.',
     },
     {
         type: 'input',
@@ -40,10 +43,15 @@ const questions = [
         message: 'Write tests for your application.',
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What license did you use?',
-        choices: ['Artistic license 2.0', 'MIT', 'ISC', 'The Unlicense']
+        choices: ['Artistic License 2.0', 'MIT', 'ISC', 'Apache License 2.0']
+    },
+    {
+        type: 'input',
+        name: 'badge',
+        message: 'Add A badge link to your selected License.',
     },
     {
         type: 'input',

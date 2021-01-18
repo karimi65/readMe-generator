@@ -1,12 +1,16 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
+  ${data.badge}
+
   [Link to page](${data.link})
 
+  ---
   ## Description
   ${data.description}
 
-
+  ---
   ## Table of Content
   * [Installation](#Installation)
 
@@ -16,37 +20,44 @@ function generateMarkdown(data) {
 
   * [Test](#Test)
 
-  * [MIT License](#License)
+  * [License](#License)
 
   * [Question](#Question)
 
 
 
+  ---
   ## Installation:
-  ------------------------------------------------------ 
   ${data.installation} 
+  
 
+  ---
   ## Usage:
-  ------------------------------------------------------ 
   ${data.usage}
+   
 
+  ---
   ## Credits:
-  ------------------------------------------------------
-   ${data.credits}
+  ${data.credits}
+  
 
+  ---
   ## Test:
-  ------------------------------------------------------
-   ${data.test}
+  ${data.test}
+  
 
+  ---
   ## License:
-  ------------------------------------------------------
-   ${data.license}
+  ${data.license}
+  
 
-  ## Question:
-  ------------------------------------------------------ 
-  ${data.GitHub}
+  --- 
+  ## Question?
+  If you have any question or require any further information, feel free to contact me. 
 
-  ${data.Email}
+  GitHub: ${data.GitHub}
+
+  Email: ${data.Email}
 
   `;
 }
