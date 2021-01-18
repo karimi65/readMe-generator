@@ -40,7 +40,7 @@ const questions = [
         message: 'Write tests for your application.',
     },
     {
-        type: 'lists',
+        type: 'checkbox',
         name: 'license',
         message: 'What license did you use?',
         choices: ['Artistic license 2.0', 'MIT', 'ISC', 'The Unlicense']
@@ -68,7 +68,7 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
-        .then((data) => fs.writeFile('Text.md', generateMarkdown(data), (err) => {
+        .then((data) => fs.writeFile('Example.md', generateMarkdown(data), (err) => {
             if (err) throw err;
             console.log('File Saved!');
         }))
