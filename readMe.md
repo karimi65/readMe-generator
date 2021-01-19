@@ -7,6 +7,8 @@
   ## Description
   This is a project that generates a markdown readme file using node.js and helps developers to make readme files faster. 
 
+  ![screenshot](./assets/Screenshot.JPG)
+
   ---
   ## Table of Content
   * [Installation](#Installation)
