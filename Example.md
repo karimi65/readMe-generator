@@ -2,7 +2,7 @@
 
   [![MIT License](https://img.shields.io/npm/l/mi?style=plastic)](https://opensource.org/licenses/MIT)
 
-  [Link to page]()
+  [Link to Video](./assets/video record.mp4)
 
   ---
   ## Description
