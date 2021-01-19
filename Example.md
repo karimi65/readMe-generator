@@ -1,4 +1,4 @@
-# SAMPLE
+# Readme Generator
 
   [![MIT License](https://img.shields.io/npm/l/mi?style=plastic)](https://opensource.org/licenses/MIT)
 
