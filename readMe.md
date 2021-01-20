@@ -9,6 +9,8 @@
 
   ![screenshot](./assets/Screenshot.JPG)
 
+  [link to video](https://drive.google.com/file/d/1fKS2tMofPym1Kpziffv2MhgYo6qrcmpy/view?usp=sharing)
+
   ---
   ## Table of Content
   * [Installation](#Installation)
