@@ -5,9 +5,8 @@
 
   ---
   ## Description
-  This is a project that generates a markdown readme file using node.js and helps developers to make readme files faster. 
+   Creating a command-line application that dynamically generates a professional markdown README file from a user's input using the Inquirer package.
 
-  ![screenshot](./assets/Screenshot.JPG)
 
   [link to video](https://drive.google.com/file/d/1fKS2tMofPym1Kpziffv2MhgYo6qrcmpy/view?usp=sharing)
 
@@ -35,7 +34,9 @@
   ---
   ## Usage:
   
-   
+   You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+
+   ![screenshot](./assets/Screenshot.JPG)
 
   ---
   ## Credits:
